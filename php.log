@@ -16890,3 +16890,274 @@ Stack trace:
     [day] => 7
 )
 
+[02-Nov-2021 08:21:32 UTC] デバッグ:画面表示処理開始-----------------------
+[02-Nov-2021 08:21:32 UTC] デバッグ:$_SESSIONの中身1：Array
+(
+)
+
+[02-Nov-2021 08:21:32 UTC] デバッグ:の$_SESSIONの中身2：Array
+(
+    [page_flg] => start_page
+    [day] => 1
+    [history] => 1日目です<br>
+)
+
+[02-Nov-2021 08:21:32 UTC] デバッグ:画面表示処理終了^^^^^^^^^^^^^^^^^^^^^^^^^
+[02-Nov-2021 08:21:32 UTC] デバッグ:ページ分岐です
+[02-Nov-2021 08:21:32 UTC] デバッグ:の$_SESSIONの中身3：Array
+(
+    [page_flg] => start_page
+    [day] => 1
+    [history] => 1日目です<br>
+)
+
+[02-Nov-2021 08:21:32 UTC] デバッグ:スタート画面-----------------------------------
+[02-Nov-2021 08:21:32 UTC] PHP Notice:  Undefined variable: json_data in /Applications/MAMP/htdocs/php_op/index7.php on line 650
+[02-Nov-2021 08:21:34 UTC] デバッグ:画面表示処理開始-----------------------
+[02-Nov-2021 08:21:34 UTC] デバッグ:$_SESSIONの中身1：Array
+(
+    [page_flg] => start_page
+    [day] => 1
+    [history] => 1日目です<br>
+)
+
+[02-Nov-2021 08:21:34 UTC] デバッグ:post送信があります
+[02-Nov-2021 08:21:34 UTC] デバッグ:$_POSTの中身：Array
+(
+    [start] => ゲームスタート
+)
+
+[02-Nov-2021 08:21:34 UTC] デバッグ:スタートが押されました
+[02-Nov-2021 08:21:34 UTC] デバッグ:ゲーム初期化関数です
+[02-Nov-2021 08:21:34 UTC] デバッグ:すべての患者情報：Array
+(
+)
+
+[02-Nov-2021 08:21:34 UTC] デバッグ:の$_SESSIONの中身2：Array
+(
+    [milds] => Array
+        (
+            [0] => Mild Object
+                (
+                    [condition_flg:protected] => 0
+                    [name:protected] => IBJさん
+                    [hp:protected] => 53
+                    [img:protected] => img/sick_hatunetsu_man.png
+                )
+
+        )
+
+    [moderates] => Array
+        (
+        )
+
+    [criticallys] => Array
+        (
+        )
+
+    [drug] => Drug Object
+        (
+            [name:protected] => 特効薬
+            [info:protected] => 重傷の人間をすべて完治させることができます
+            [img:protected] => img/medical_vaccine_covid19.png
+            [amount:protected] => 0
+            [price:protected] => 100
+        )
+
+    [ecmo] => Ecmo Object
+        (
+            [name:protected] => ECMO
+            [info:protected] => 中等度・重傷者の治療効率が1.2倍になります(複数効果あり）
+            [img:protected] => img/medical_ecmo_machine.png
+            [amount:protected] => 0
+            [price:protected] => 200
+        )
+
+    [bed] => Bed Object
+        (
+            [name:protected] => 病床
+            [info:protected] => 入院できる最大人数です
+            [img:protected] => img/kaigo_bed.png
+            [amount:protected] => 3
+            [price:protected] => 70
+        )
+
+    [history] => ゲームを開始します<br>IBJさん(軽症患者)が入院しました<br>1日目です<br>
+    [doctors] => Array
+        (
+            [0] => Doctor Object
+                (
+                    [skill:protected] => 1
+                    [name:protected] => A医師
+                    [hp:protected] => 
+                    [img:protected] => 
+                )
+
+            [1] => Doctor Object
+                (
+                    [skill:protected] => 2
+                    [name:protected] => B医師
+                    [hp:protected] => 
+                    [img:protected] => 
+                )
+
+        )
+
+    [money] => 1000
+    [page_flg] => main_page
+    [day] => 1
+)
+
+[02-Nov-2021 08:21:34 UTC] デバッグ:画面表示処理終了^^^^^^^^^^^^^^^^^^^^^^^^^
+[02-Nov-2021 08:21:34 UTC] デバッグ:ページ分岐です
+[02-Nov-2021 08:21:34 UTC] デバッグ:の$_SESSIONの中身3：Array
+(
+    [milds] => Array
+        (
+            [0] => Mild Object
+                (
+                    [condition_flg:protected] => 0
+                    [name:protected] => IBJさん
+                    [hp:protected] => 53
+                    [img:protected] => img/sick_hatunetsu_man.png
+                )
+
+        )
+
+    [moderates] => Array
+        (
+        )
+
+    [criticallys] => Array
+        (
+        )
+
+    [drug] => Drug Object
+        (
+            [name:protected] => 特効薬
+            [info:protected] => 重傷の人間をすべて完治させることができます
+            [img:protected] => img/medical_vaccine_covid19.png
+            [amount:protected] => 0
+            [price:protected] => 100
+        )
+
+    [ecmo] => Ecmo Object
+        (
+            [name:protected] => ECMO
+            [info:protected] => 中等度・重傷者の治療効率が1.2倍になります(複数効果あり）
+            [img:protected] => img/medical_ecmo_machine.png
+            [amount:protected] => 0
+            [price:protected] => 200
+        )
+
+    [bed] => Bed Object
+        (
+            [name:protected] => 病床
+            [info:protected] => 入院できる最大人数です
+            [img:protected] => img/kaigo_bed.png
+            [amount:protected] => 3
+            [price:protected] => 70
+        )
+
+    [history] => ゲームを開始します<br>IBJさん(軽症患者)が入院しました<br>1日目です<br>
+    [doctors] => Array
+        (
+            [0] => Doctor Object
+                (
+                    [skill:protected] => 1
+                    [name:protected] => A医師
+                    [hp:protected] => 
+                    [img:protected] => 
+                )
+
+            [1] => Doctor Object
+                (
+                    [skill:protected] => 2
+                    [name:protected] => B医師
+                    [hp:protected] => 
+                    [img:protected] => 
+                )
+
+        )
+
+    [money] => 1000
+    [page_flg] => main_page
+    [day] => 1
+)
+
+[02-Nov-2021 08:21:34 UTC] デバッグ:メインページ---------------------------------
+[02-Nov-2021 08:21:34 UTC] デバッグ:メインページの$_SESSIONの中身5：Array
+(
+    [milds] => Array
+        (
+            [0] => Mild Object
+                (
+                    [condition_flg:protected] => 0
+                    [name:protected] => IBJさん
+                    [hp:protected] => 53
+                    [img:protected] => img/sick_hatunetsu_man.png
+                )
+
+        )
+
+    [moderates] => Array
+        (
+        )
+
+    [criticallys] => Array
+        (
+        )
+
+    [drug] => Drug Object
+        (
+            [name:protected] => 特効薬
+            [info:protected] => 重傷の人間をすべて完治させることができます
+            [img:protected] => img/medical_vaccine_covid19.png
+            [amount:protected] => 0
+            [price:protected] => 100
+        )
+
+    [ecmo] => Ecmo Object
+        (
+            [name:protected] => ECMO
+            [info:protected] => 中等度・重傷者の治療効率が1.2倍になります(複数効果あり）
+            [img:protected] => img/medical_ecmo_machine.png
+            [amount:protected] => 0
+            [price:protected] => 200
+        )
+
+    [bed] => Bed Object
+        (
+            [name:protected] => 病床
+            [info:protected] => 入院できる最大人数です
+            [img:protected] => img/kaigo_bed.png
+            [amount:protected] => 3
+            [price:protected] => 70
+        )
+
+    [history] => ゲームを開始します<br>IBJさん(軽症患者)が入院しました<br>1日目です<br>
+    [doctors] => Array
+        (
+            [0] => Doctor Object
+                (
+                    [skill:protected] => 1
+                    [name:protected] => A医師
+                    [hp:protected] => 
+                    [img:protected] => 
+                )
+
+            [1] => Doctor Object
+                (
+                    [skill:protected] => 2
+                    [name:protected] => B医師
+                    [hp:protected] => 
+                    [img:protected] => 
+                )
+
+        )
+
+    [money] => 1000
+    [page_flg] => main_page
+    [day] => 1
+)
+
