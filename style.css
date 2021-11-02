@@ -1,0 +1,159 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width:1060px;
+    margin:0 auto;
+
+}
+h1{
+    font-size:2.4rem;
+}
+h3{
+    font-size:2.0rem;
+}
+
+.contents-wrap{
+    position: relative;
+}
+
+.main-area{
+    width: 760px;
+    height: 600px;
+    background: whitesmoke;
+    float:left;
+    padding:10px;
+    font-size:1.8rem;
+}
+
+
+.msg-area{
+    width:270px;
+    background: wheat;
+    height: 1000px;
+    float:left;
+    margin-left: 10px;
+    font-size:1.5rem;
+}
+.equipment-status{
+    align-items: center;
+    display: flex;    
+    /* width: 400px; */
+    border: 1px solid black;
+}
+.equipment-status span{
+    padding-left:10px;
+}
+
+
+.equipment-status img{
+    width: 80px;
+    margin-left: 20px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.game-main{
+    margin-top:20px;
+    display: flex;
+}
+
+.charactor-area{
+    display: flex;
+}
+.doctor-status:last-child{
+    margin-left:20px;
+}
+.charactor-area img{
+    width: 140px;
+}
+.charactor-area span{
+    display: block;
+}
+
+.charactor-area select{
+    display: block;
+    width: 160px;
+    height: 30px;
+    font-size: 1.6rem;
+}
+
+
+.patients-area{
+    width: 350px;
+
+}
+.patients-area img{
+    width: 120px;
+}
+
+.patients-status span{
+    display: inline-block;
+    margin-left:20px;
+}
+
+.doctor-wrap{
+    display: flex;
+}
+
+.select-wrap{
+    margin-top:30px;
+    text-align: center;
+}
+
+.doctor-select-wrap input{
+    width: 110px;
+    height: 40px;
+    font-size: 1.8rem;
+}
+
+.doctor-select-wrap input:hover{
+    cursor:pointer;
+}
+
+.item-buy-select img{
+    width:80px;
+    
+}
+.item-buy-select p{
+    display: inline;
+}
+.item-buy-select select{
+    display: inline-block;
+    font-size: 1.6rem;
+    padding: 3px 5px;
+}
+.item-buy-select h4{
+    margin:0;
+}
+.buy-item-wrap{
+    margin-top:25px;
+}
+
+.item-info{
+    display: inline-block;
+    margin-left:20px;
+}
+
+.buy-item-footer{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    margin-top:30px;
+}
+
+.buy-item-footer p{
+    width:200px;
+}
+.buy-item-footer input[type="submit"]{
+    width:100px;
+    height: 50px;;
+}
+.buy-item-footer input[type="submit"]:hover{
+    cursor: pointer;
+}
+.buy-item-footer #total_amount_err{
+    color:red;
+}
